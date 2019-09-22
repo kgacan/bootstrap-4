@@ -9,11 +9,11 @@ body {
 }
 
 #home-section {
-  background: url(../img/home.jpg) !important;
+  background: url(../img/home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-width: 700px;
+  min-height: 700px;
 }
 
 #home-section .dark-overlay {
@@ -24,6 +24,7 @@ body {
   min-height: 700px;
   background: rgba(0, 0, 0, 0.7);
 }
+
 #home-section .home-inner {
   padding-top: 150px;
 }
@@ -33,16 +34,15 @@ body {
 }
 
 #home-section .fas,
-#share-section .fas {
+#create-section .fas {
   color: #008ed6;
   background: #fff;
   padding: 5px;
   border-radius: 5px;
 }
-#explore-head-section {
-  margin-top: 700px;
-}
-#explore-section .fas {
+
+#explore-section .fas,
+#share-section .fas {
   background: #333;
   color: #fff;
   padding: 5px;
